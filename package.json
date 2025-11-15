@@ -1,0 +1,25 @@
+{
+  "name": "glo_intensive_2025_11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svidpro/glo_intensive_2025_11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svidpro/glo_intensive_2025_11/issues"
+  },
+  "homepage": "https://github.com/svidpro/glo_intensive_2025_11#readme",
+  "devDependencies": {
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
