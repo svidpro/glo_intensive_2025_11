@@ -13,7 +13,7 @@ const postTestData = () => {
       price: Math.random(),
       sale: true,
       img: "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
-      category: "Игры и софт"
+      category: "Игры и софт 123"
     }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',

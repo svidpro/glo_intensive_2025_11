@@ -6,7 +6,7 @@ const deleteTestData = () => {
   /** @type {HTMLDivElement} */
   const cartClose = document.querySelector('.cart-close');
 
-  fetch('http://localhost:3000/goods/25', {
+  fetch('http://localhost:3000/goods/ac4a', {
     method: 'DELETE',
   });
 }

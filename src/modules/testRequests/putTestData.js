@@ -6,7 +6,7 @@ const putTestData = () => {
   /** @type {HTMLDivElement} */
   const cartClose = document.querySelector('.cart-close');
 
-  fetch('http://localhost:3000/goods/24', {
+  fetch('http://localhost:3000/goods/881f', {
     method: 'PUT',
     body: JSON.stringify({
       title: "Игра Onrush (PS4 Sony) " + Math.random(),

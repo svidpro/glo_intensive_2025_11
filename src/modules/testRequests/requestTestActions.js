@@ -13,10 +13,10 @@ const requestTestActions = () => {
     /** @type {HTMLDivElement} */
     const patchBrn = document.getElementById('patchRequest');
 
-    postBtn.addEventListener('click', postTestData())
-    deleteBtn.addEventListener('click', deleteTestData())
-    putBtn.addEventListener('click', putTestData())
-    patchBrn.addEventListener('click', patchTestData())
+    postBtn.addEventListener('click', postTestData)
+    deleteBtn.addEventListener('click', deleteTestData)
+    putBtn.addEventListener('click', putTestData)
+    patchBrn.addEventListener('click', patchTestData)
 }
 
 export default requestTestActions

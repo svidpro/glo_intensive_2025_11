@@ -6,7 +6,7 @@ const patchTestData = () => {
   /** @type {HTMLDivElement} */
   const cartClose = document.querySelector('.cart-close');
 
-  fetch('http://localhost:3000/goods/25', {
+  fetch('http://localhost:3000/goods/359b', {
     method: 'PATCH',
     body: JSON.stringify({
       price: Math.random(),
