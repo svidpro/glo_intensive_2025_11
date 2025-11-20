@@ -1,7 +1,7 @@
 import getDataReal from "./getDataReal" // тестовый пример поиска на сервере
 import renderGoods from "./renderGoods"
 import getData from "./getData"
-import { searchFilter } from "./filter"
+import { searchFilter } from "./filters"
 
 const search = () => {
     const searchInput = document.querySelector('.search-wrapper_input')
